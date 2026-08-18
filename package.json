@@ -1,0 +1,8 @@
+{
+  "name": "lab07-crud-mvc",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "mvn clean package cargo:run",
+    "build": "mvn clean package"
+  }
+}

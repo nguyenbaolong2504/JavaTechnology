@@ -1,0 +1,2 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!doctype html><html lang="vi"><head><meta charset="UTF-8"><title>Chi tiết SP</title></head><body style="font-family:Arial;max-width:1000px;margin:30px auto"><h2>Chi tiết sản phẩm</h2><p>${sp.ma} - ${sp.ten}</p><p>${sp.moTa}</p><p>Giá: ${sp.gia}, tồn: ${sp.soLuong}</p><p><a href="${pageContext.request.contextPath}/gio-hang?action=add&id=${sp.id}">Thêm vào giỏ</a></p><a href="${pageContext.request.contextPath}/san-pham">Quay lại</a></body></html>

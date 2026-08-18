@@ -1,0 +1,2 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!doctype html><html lang="vi"><head><meta charset="UTF-8"><title>Chi tiết sách</title></head><body style="font-family:Arial;max-width:1000px;margin:30px auto"><h2>Chi tiết sách</h2><p>${sach.maSach} - ${sach.tenSach}</p><p>Tác giả: ${sach.tacGia}</p><p>NXB: ${sach.nhaXuatBan} - ${sach.namXuatBan}</p><a href="${pageContext.request.contextPath}/sach">Quay lại</a></body></html>
